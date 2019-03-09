@@ -1,0 +1,51 @@
+{
+    "data": {
+        "title": "Portfolio",
+        "projects": [
+            {
+                "id": "0",
+                "project_name": "React Image Gallery",
+                "description": "Search for images",
+                "technologies": [
+                    "CSS",
+                    "HTML",
+                    "JavaScript",
+                    "React"
+                ],
+                "live_link": "netlify",
+                "github_link": "",
+                "image_urls": "../public/img/ImgGallery.png"
+            },
+            {
+                "id": "1",
+                "project_name": "Football UEFA Mobile App",
+                "description": "get the newest info about your favourite team, match..",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "Vue",
+                    "Firebase"
+                ],
+                "live_link": "netlify",
+                "github_link": "",
+                "image_urls": "../public/img/Football.png"
+            },
+            {
+                "id": "2",
+                "project_name": "Bookstore",
+                "description": "search for a book/books",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "Vue",
+                    "Flip Book Animation"
+                ],
+                "live_link": "netlify",
+                "github_link": "",
+                "image_urls": "../public/img/Bookstore.png"
+            }
+        ]
+    }
+}
