@@ -12,9 +12,9 @@
                     "JavaScript",
                     "React"
                 ],
-                "live_link": "netlify",
-                "github_link": "",
-                "image_urls": "../public/img/ImgGallery.png"
+                "live_link": "https://my-image-gallery.netlify.com/",
+                "github_link": "https://github.com/tina-pina/react_image_gallery",
+                "image_urls": "../static/img/ImgGallery.png"
             },
             {
                 "id": "1",
@@ -27,9 +27,9 @@
                     "Vue",
                     "Firebase"
                 ],
-                "live_link": "netlify",
-                "github_link": "",
-                "image_urls": "../public/img/Football.png"
+                "live_link": "https://uefa-football-vue.netlify.com/",
+                "github_link": "https://github.com/tina-pina/football-vue-js-cli",
+                "image_urls": "../static/img/Football.png"
             },
             {
                 "id": "2",
@@ -42,9 +42,9 @@
                     "Vue",
                     "Flip Book Animation"
                 ],
-                "live_link": "netlify",
-                "github_link": "",
-                "image_urls": "../public/img/Bookstore.png"
+                "live_link": "https://bookstore-vue-js.netlify.com/",
+                "github_link": "https://github.com/tina-pina/bookstore-vue-js-cli",
+                "image_urls": "../static/img/Bookstore.png"
             }
         ]
     }
