@@ -6,20 +6,19 @@ block content
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9 
-         
-            h3= project_name
-
-            p= project_description
+        h1= project_name
+        p.lead.text-light= project_description
           
       .cell.portfolio-meta.small-6.medium-2.large-3
-      ul
-        each technologies in project_technologies
-          li=technologies
+         h6 Technologies
+         ul
+          each technologies in project_technologies
+            li=technologies
 
-      a.button.expanded(href=project_netlify) Netlify
-          
-      a.button.expanded(href=project_github) GitHub Repo
-          
-      img.image(src=project_img) 
+         a.button.expanded(href=project_netlify target="_blank" ) Netlify
+            
+         a.button.expanded(href=project_github target="_blank") GitHub
+            
+    img.image(src=project_img) 
             
           

@@ -3,18 +3,15 @@ extends layout.pug
 block content 
   article.grid-container.portfolio-intro
     div
-
-      //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
       h1 My Portfolio
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's suppossed to accomplish, etc. 
       p.lead.text-light
-        | This portfolio shows a selection of my projects. I hope i can give an overview of my skills and interests. 
+        | This portfolio shows a selection of my projects. I hope i can give an overview of my skills and key interests
   article.grid-container.portfolio-index
     
-    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
-
-    ul
+    #main-overview-portfolio.grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+      ul
         each p in projects 
           .cell
             img.thumbnail(src=p.image_urls)
@@ -22,3 +19,5 @@ block content
               span
                 ul
                     a(href=`project/${p.id}`) -> more
+
+

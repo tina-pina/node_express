@@ -57,6 +57,12 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
+#main-overview-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* Grouping content
        ========================================================================== */
 /**
