@@ -6,7 +6,6 @@ app.set('view engine', 'pug');
 
 /* serve the static files located in the public folder */
 app.use('/static', express.static('public'));
-app.use(express.static('public/img/'));
 
 /* set routes */
 const mainRoutes = require('./routes');
