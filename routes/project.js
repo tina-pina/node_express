@@ -13,8 +13,7 @@ router.use((req, res, next) => {
 /* validate id param */
 router.param('id', (req, res, next, id) => {
     /* validate and make id available for router.get */
-    idToNumber = parseInt(id, 10);
-    if (!isNaN(idToNumber) && 0 <= idToNumber && idToNumber < projects.length) req.id = idToNumber
+    if (projects.map(p => p.id).includes(id)) req.id = id
     next()
 })
 
