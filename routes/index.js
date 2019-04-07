@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { data } = require('../data/projectsData.json');
+const { data } = require('../data/data.json');
 
 // data passed to index.pug
 router.get('/', (req, res) => {

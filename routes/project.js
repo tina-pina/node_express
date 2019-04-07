@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // data, or "locals", as an object that contains data to be passed to the Pug template
-const { data } = require('../data/projectsData.json');
+const { data } = require('../data/data.json');
 const { projects } = data;
 
 /* middleware: error handler */
