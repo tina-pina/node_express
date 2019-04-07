@@ -16,7 +16,6 @@ app.use(mainRoutes);
 app.use('/about', aboutRoutes);
 app.use('/project', projectRoutes);
 
-/* middleware: error handler */
 app.use((req, res, next) => {
     const err = new Error('Not found');
     err.status = 404;
@@ -26,6 +25,7 @@ app.use((req, res, next) => {
 /* error handler */
 app.use((err, req, res, next) => {
     /* res.locals.error => use error object in pug template */
+    console.log(`User trying to access ${req.originalUrl} and route is ${err.message}`)
     res.locals.error = err;
     res.status(err.status);
     res.render('error')

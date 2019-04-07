@@ -13,7 +13,8 @@ router.use((req, res, next) => {
 /* validate id param */
 router.param('id', (req, res, next, id) => {
     /* validate and make id available for router.get */
-    if (0 <= id && id < projects.length) req.id = id
+    idToNumber = parseInt(id, 10);
+    if (!isNaN(idToNumber) && 0 <= idToNumber && idToNumber < projects.length) req.id = idToNumber
     next()
 })
 
@@ -30,6 +31,7 @@ router.get('/:id', (req, res) => {
         })
     } else {
         res.status(400)
+        console.log(`this project is not existing!`)
         res.send('project not found')
     }
 })
