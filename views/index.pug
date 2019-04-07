@@ -1,23 +1,20 @@
 extends layout.pug
 
+//- portfolio overview projects
 block content 
   article.grid-container.portfolio-intro
     div
       h1 My Portfolio
 
-      //- Add a description for your portfolio, what this project is, it's purpose, what it's suppossed to accomplish, etc. 
       p.lead.text-light
         | This portfolio shows a selection of my projects. I hope i can give an overview of my skills and key interests
   article.grid-container.portfolio-index
     
     #main-overview-portfolio.grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
-      ul
-        each p in projects 
-          .cell
-            img.thumbnail(src=p.image_urls)
+      
+      //- iterate over every project passed from index.js
+      each p in projects 
+        .cell
+          a(href=`project/${p.id}`)
+            img.thumbnail(src=p.image_urls[0])
             h5= p.project_name
-              span
-                ul
-                    a(href=`project/${p.id}`) -> more
-
-

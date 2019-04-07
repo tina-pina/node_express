@@ -4,47 +4,93 @@
         "projects": [
             {
                 "id": "0",
-                "project_name": "React Image Gallery",
-                "description": "Search for images",
+                "project_name": "A Random Quote Generator ",
+                "description": "a program that displays a randomly selected quote each time the user clicks a button.",
                 "technologies": [
-                    "CSS",
                     "HTML",
-                    "JavaScript",
-                    "React"
+                    "CSS",
+                    "JavaScript"
                 ],
-                "live_link": "https://my-image-gallery.netlify.com/",
-                "github_link": "https://github.com/tina-pina/react_image_gallery",
-                "image_urls": "../static/img/ImgGallery.png"
+                "live_link": "https://tina-pina.github.io/quoteGenerator/",
+                "github_link": "https://github.com/tina-pina/quoteGenerator",
+                "image_urls": [
+                    "../static/img/p1_550_550.png",
+                    "../static/img/p1_1200_550.png",
+                    "../static/img/p1_1200_550.png",
+                    "../static/img/p1_1200_550.png"
+                ]
             },
             {
                 "id": "1",
-                "project_name": "Football UEFA Mobile App",
-                "description": "get the newest info about your favourite team, match..",
+                "project_name": "List Pagination and Filtering",
+                "description": "list students info in an organized way",
                 "technologies": [
                     "HTML",
                     "CSS",
-                    "JavaScript",
-                    "Vue",
-                    "Firebase"
+                    "JavaScript"
                 ],
-                "live_link": "https://uefa-football-vue.netlify.com/",
-                "github_link": "https://github.com/tina-pina/football-vue-js-cli",
-                "image_urls": "../static/img/Football.png"
+                "live_link": "https://tina-pina.github.io/pagination-filtering/",
+                "github_link": "https://github.com/tina-pina/pagination-filtering",
+                "image_urls": [
+                    "../static/img/p2_550_550.png",
+                    "../static/img/p2_1200_550.png",
+                    "../static/img/p2_1200_550.png",
+                    "../static/img/p2_1200_550.png"
+                ]
             },
             {
                 "id": "2",
-                "project_name": "Bookstore",
-                "description": "search for a book/books",
+                "project_name": "Interactive Form",
+                "description": "interactive form for fullstack conference",
                 "technologies": [
                     "HTML",
                     "CSS",
-                    "JavaScript",
-                    "Vue",
-                    "Flip Book Animation"
+                    "JavaScript"
                 ],
-                "live_link": "https://bookstore-vue-js.netlify.com/",
-                "github_link": "https://github.com/tina-pina/bookstore-vue-js-cli",
-                "image_urls": "../static/img/Bookstore.png"
+                "live_link": "https://tina-pina.github.io/interactive-form/",
+                "github_link": "https://github.com/tina-pina/interactive-form",
+                "image_urls": [
+                    "../static/img/p3_550_550.png",
+                    "../static/img/p3_1200_550.png",
+                    "../static/img/p3_1200_550.png",
+                    "../static/img/p3_1200_550.png"
+                ]
+            },
+            {
+                "id": "3",
+                "project_name": "OOP Game Show App",
+                "description": "word guessing game: Phrase Hunter. Player tries to guess a random, hidden phrase.",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "live_link": "https://tina-pina.github.io/Phrase-Hunter/",
+                "github_link": "https://github.com/tina-pina/Phrase-Hunter",
+                "image_urls": [
+                    "../static/img/p4_550_550.png",
+                    "../static/img/p4_1200_550.png",
+                    "../static/img/p4_1200_550.png",
+                    "../static/img/p4_1200_550.png"
+                ]
+            },
+            {
+                "id": "4",
+                "project_name": "Public API Requests",
+                "description": "employee directory with data from API",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "live_link": "https://tina-pina.github.io/public_api_request/",
+                "github_link": "https://github.com/tina-pina/public_api_request",
+                "image_urls": [
+                    "../static/img/p5_550_550.png",
+                    "../static/img/p5_1200_550.png",
+                    "../static/img/p5_1200_550.png",
+                    "../static/img/p5_1200_550.png"
+                ]
             }
         ]
     }

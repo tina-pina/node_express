@@ -12,13 +12,13 @@ block content
       .cell.portfolio-meta.small-6.medium-2.large-3
          h6 Technologies
          ul
+          //- iterate over every project`s technologies passed from project.js
           each technologies in project_technologies
             li=technologies
 
-         a.button.expanded(href=project_netlify target="_blank" ) Netlify
-            
-         a.button.expanded(href=project_github target="_blank") GitHub
-            
-    img.image(src=project_img) 
-            
-          
+         a.button.expanded(href=project_live target="_blank" ) Live Demo
+         a.button.expanded(href=project_github target="_blank") GitHub Repo
+         
+    each image in project_img       
+      img.image(src=image) 
+      

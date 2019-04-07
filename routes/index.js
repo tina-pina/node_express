@@ -1,19 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const { data } = require('../data/projectsData.json');
-const { projects } = data;
 
+// data passed to index.pug
 router.get('/', (req, res) => {
-    // this is what we get when we render the view.
-    // res.locals = data.projects;
-    // console.log(res.locals)
-
-    res.render('index', { projects: projects })
+    res.render('index', { projects: data.projects })
 })
-
-
-
-
-
 
 module.exports = router;
